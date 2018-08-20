@@ -7,7 +7,6 @@ package com.mycompany.mymicro;
  */
 
 
-
 import com.avbravo.seguridadejb.entity.Agente;
 import com.avbravo.seguridadejb.repository.AgenteRepository;
 import java.util.ArrayList;
