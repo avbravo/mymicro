@@ -22,8 +22,8 @@
         </dependency>
         <dependency>
             <groupId>com.avbravo</groupId>
-            <artifactId>horarioejb</artifactId>
-            <version>0.1.8.1</version>
+            <artifactId>seguridadejb</artifactId>
+            <version>0.3.8</version>
         </dependency>
         <dependency>
             <groupId>javax</groupId>
@@ -75,7 +75,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>2.3</version>
+                <version>3.2.2</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
@@ -83,7 +83,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <version>2.6</version>
+                <version>3.1.1</version>
                 <executions>
                     <execution>
                         <phase>validate</phase>

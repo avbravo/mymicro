@@ -7,8 +7,9 @@ package com.mycompany.mymicro;
  */
 
 
-import com.avbravo.horarioejb.entity.Agente;
-import com.avbravo.horarioejb.repository.AgenteRepository;
+
+import com.avbravo.seguridadejb.entity.Agente;
+import com.avbravo.seguridadejb.repository.AgenteRepository;
 import java.util.ArrayList;
 import java.util.List;
 import javax.ejb.Stateless;
